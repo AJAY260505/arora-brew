@@ -19,6 +19,11 @@ const Menus = [
         name: "About",
         link: "/#about",
     },
+    {
+        id: 4,
+        name: "Login/Signup",
+        link: "/#",
+    }
 ];
 
 const menuItem =[
