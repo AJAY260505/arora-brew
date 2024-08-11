@@ -109,13 +109,13 @@ const Footer = () => {
 
                             {/*Social Link*/}
                             <div className='space-x-3 mt-6'>
-                                <a href='#'>
+                                <a href='https://github.com/AJAY260505'>
                                     <FaFacebook className='text-3xl inline-block hover:scale-105 duration-200'/>
                                 </a>
-                                <a href='#'>
+                                <a href='https://www.linkedin.com/in/ajayjaisankar/'>
                                     <FaLinkedin className='text-3xl inline-block hover:scale-105 duration-200'/>
                                 </a>
-                                <a href='#'>
+                                <a href='https://www.instagram.com/p_h_o_.e._n_i_x?igsh=OTNnZGQ5NnFiYng='>
                                     <FaInstagram className='text-3xl inline-block hover:scale-105 duration-200'/>
                                 </a>
                                 
