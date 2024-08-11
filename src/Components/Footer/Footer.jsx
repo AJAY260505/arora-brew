@@ -104,8 +104,8 @@ const Footer = () => {
                     <div className='py-8 px-4 col-span-2 sm:col-auto'>
                         <h1 className='text-xl font-semibold sm:text-left mb-3'>Address</h1>
                         <div>
-                            <p className='mb-3'>Enugu, Enugu</p>
-                            <p>+234 7057619705</p>
+                            <p className='mb-3'>Chennai,TamilNadu</p>
+                            <p>+916385119260</p>
 
                             {/*Social Link*/}
                             <div className='space-x-3 mt-6'>
