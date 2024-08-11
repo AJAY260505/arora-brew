@@ -21,6 +21,21 @@ const Menus = [
     },
 ];
 
+const menuItem =[
+    {
+      "id": 1,
+      "name": "Espresso",
+      "price": 250,
+      "description": "A strong and bold coffee made by forcing hot water through finely-ground coffee beans.",
+      "category": "Coffee"
+    },
+    {
+      "id": 2,
+      "name": "Americano",
+      "price": 300,
+      "description": "Espresso diluted with hot water, offering a similar strength to brewed coffee.",
+      "category": "Coffee"
+    },]
 const Navbar = () => {
     const [menuItems, setMenuItems] = useState([]);
     const [menuVisible, setMenuVisible] = useState(false);
@@ -31,7 +46,7 @@ const Navbar = () => {
         const fetchMenu = async () => {
             try {
                 const response = await axios.get('https://firebasestorage.googleapis.com/v0/b/arora-brew.appspot.com/o/menu.json?alt=media');
-                setMenuItems(response.data);
+                setMenuItems(response);
             } catch (error) {
                 setError(error);
             } finally {
@@ -96,11 +111,11 @@ const Navbar = () => {
                         {loading && <p>Loading...</p>}
                         {error && <p>Error loading menu.</p>}
                         <ul>
-                            {menuItems.map(item => (
+                            {menuItem.map(item => (
                                 <li key={item.id} className="mb-4">
                                     <h3 className="text-xl font-semibold">{item.name}</h3>
-                                    <p>{item.description}</p>
                                     <p>Price: ₹{item.price}</p>
+                                    <p>{item.description}</p>
                                 </li>
                             ))}
                         </ul>
