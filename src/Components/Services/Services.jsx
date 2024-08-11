@@ -8,7 +8,7 @@ const ServicesData = [
         img: Img3,
         name: "Espresso",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vero perferendis dicta.",
+            "The essence of coffee, condensed into a single, powerful shot. Enjoy the intense aroma and robust flavor that defines this rich and full-bodied experience.",
         aosDelay: "100",
     },
     {
@@ -16,7 +16,7 @@ const ServicesData = [
         img: Img2,
         name: "Americano",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vero perferendis dicta.",
+            "A timeless classic with a bold flavor. Experience the perfect balance of rich espresso and hot water, creating a smooth and satisfying brew.",
         aosDelay: "300",
     },
     {
@@ -24,7 +24,7 @@ const ServicesData = [
         img: Img3,
         name: "Cappuccino",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vero perferendis dicta.",
+            "A harmonious blend of rich espresso, velvety steamed milk, and a delicate layer of froth. Experience the perfect balance of flavors in every comforting sip",
         aosDelay: "600",
      },
 ];
