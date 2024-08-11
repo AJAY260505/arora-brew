@@ -40,7 +40,7 @@ const Banner = () => {
                             dat-aos="fade-up"
                             className='text-sm text-gray-500 tracking-wider leading-5'
                         >
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi tempora a vero distinctio? Quibusdam odio laborum temporibus eius adipisci animi illum quia corrupti nesciunt molestiae similique, molestias fugit at?
+                            Exceptional Coffee, Unforgettable Moments. Discover the richness of expertly crafted blends at Premium Blend Coffee. Savor every sip.
                         </p>
                         <div className='grid grid-cols-2 gap-6 '>
                             <div className='space-y-5'>
