@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Menu from './src/Menu'; // This should be correct if Menu.js is in the same directory as App.jsx
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from './Components/Navbar/Navbar';
@@ -9,6 +10,7 @@ import AppStore from './Components/AppStore/AppStore';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Footer from './Components/Footer/Footer';
 import { Analytics } from "@vercel/analytics/react";
+
 
 const App = () => {
   useEffect(() => {

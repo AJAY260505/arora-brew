@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Espresso",
+    "price": 250,
+    "description": "A strong and bold coffee made by forcing hot water through finely-ground coffee beans.",
+    "category": "Coffee"
+  },
+  {
+    "id": 2,
+    "name": "Americano",
+    "price": 300,
+    "description": "Espresso diluted with hot water, offering a similar strength to brewed coffee.",
+    "category": "Coffee"
+  },
+  {
+    "id": 3,
+    "name": "Cappuccino",
+    "price": 350,
+    "description": "A creamy blend of espresso, steamed milk, and foam, topped with a sprinkle of cocoa powder.",
+    "category": "Coffee"
+  },
+  {
+    "id": 4,
+    "name": "Latte",
+    "price": 400,
+    "description": "Espresso mixed with steamed milk and a small amount of foam, perfect for a smooth coffee experience.",
+    "category": "Coffee"
+  },
+  {
+    "id": 5,
+    "name": "Mocha",
+    "price": 450,
+    "description": "A rich combination of espresso, steamed milk, and chocolate syrup, topped with whipped cream.",
+    "category": "Coffee"
+  },
+  {
+    "id": 6,
+    "name": "Macchiato",
+    "price": 300,
+    "description": "Espresso with a small amount of steamed milk, offering a strong coffee flavor with a touch of creaminess.",
+    "category": "Coffee"
+  },
+  {
+    "id": 7,
+    "name": "Cold Brew",
+    "price": 350,
+    "description": "Smooth, cold coffee brewed over an extended period for a mellow taste.",
+    "category": "Coffee"
+  },
+  {
+    "id": 8,
+    "name": "Croissant",
+    "price": 200,
+    "description": "Flaky, buttery pastry perfect for pairing with any coffee drink.",
+    "category": "Pastries"
+  },
+  {
+    "id": 9,
+    "name": "Chocolate Muffin",
+    "price": 250,
+    "description": "A rich, chocolatey muffin with chunks of chocolate throughout.",
+    "category": "Pastries"
+  },
+  {
+    "id": 10,
+    "name": "Blueberry Scone",
+    "price": 225,
+    "description": "Tender scone studded with fresh blueberries and a hint of lemon zest.",
+    "category": "Pastries"
+  },
+  {
+    "id": 11,
+    "name": "Bagel with Cream Cheese",
+    "price": 300,
+    "description": "A toasted bagel served with a generous spread of cream cheese.",
+    "category": "Breakfast"
+  },
+  {
+    "id": 12,
+    "name": "Avocado Toast",
+    "price": 400,
+    "description": "Toasted bread topped with fresh avocado, sea salt, and a drizzle of olive oil.",
+    "category": "Breakfast"
+  },
+  {
+    "id": 13,
+    "name": "Breakfast Burrito",
+    "price": 500,
+    "description": "A hearty burrito filled with scrambled eggs, bacon, cheese, and avocado.",
+    "category": "Breakfast"
+  },
+  {
+    "id": 14,
+    "name": "Herbal Tea",
+    "price": 200,
+    "description": "A soothing blend of herbs, perfect for a calming tea break.",
+    "category": "Tea"
+  },
+  {
+    "id": 15,
+    "name": "Green Tea",
+    "price": 225,
+    "description": "Refreshing green tea with a hint of natural sweetness.",
+    "category": "Tea"
+  },
+  {
+    "id": 16,
+    "name": "Chai Latte",
+    "price": 400,
+    "description": "Spiced tea combined with steamed milk for a flavorful and aromatic drink.",
+    "category": "Tea"
+  },
+  {
+    "id": 17,
+    "name": "Smoothie",
+    "price": 500,
+    "description": "A blend of fresh fruits and yogurt for a refreshing and healthy drink.",
+    "category": "Smoothies"
+  },
+  {
+    "id": 18,
+    "name": "Protein Shake",
+    "price": 600,
+    "description": "A nutritious shake made with protein powder, milk, and fruits.",
+    "category": "Smoothies"
+  },
+  {
+    "id": 19,
+    "name": "Iced Coffee",
+    "price": 300,
+    "description": "Chilled coffee served over ice, perfect for a refreshing pick-me-up.",
+    "category": "Coffee"
+  },
+  {
+    "id": 20,
+    "name": "Affogato",
+    "price": 350,
+    "description": "A scoop of vanilla ice cream 'drowned' in a shot of hot espresso.",
+    "category": "Desserts"
+  }
+]
