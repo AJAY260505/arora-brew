@@ -52,11 +52,11 @@ const Footer = () => {
                         Espresso Escape
                     </p>
                     <a 
-                        href='#' 
+                        href='https://github.com/AJAY260505' 
                         target='_blank'
                         className='inline-block bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full'
                     >
-                        Visit our YouTube Channel
+                        Visit my Github
                     </a>
                 </div>
 
