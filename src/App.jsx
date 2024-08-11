@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import Menu from './Menu';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from './Components/Navbar/Navbar';
 import Home from "./Components/Home/Home";
 import Services from "./Components/Services/Services";
 import Banner from './Components/Banner/Banner';
+import firebase from 'firebase/compat/app';
 import AppStore from './Components/AppStore/AppStore';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Footer from './Components/Footer/Footer';
