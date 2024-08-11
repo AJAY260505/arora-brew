@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Logo from "../../assets/website/coffee_logo.png";
 import { FaCoffee } from "react-icons/fa";
 import axios from 'axios';
-import Login from '/Users/ajayajay/Documents/Github projects/arora-brew/src/Components/Auth/Login.jsx';
-import Signup from'/Users/ajayajay/Documents/Github projects/arora-brew/src/Components/Auth/Signup.jsx' ;
+import Login from '/src/Components/Auth/Login.jsx';
+import Signup from'/src/Components/Auth/Signup.jsx' ;
 
 const Menus = [
     { id: 1, name: "Home", link: "/#" },

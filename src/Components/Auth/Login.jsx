@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '/Users/ajayajay/Documents/Github projects/arora-brew/src/Components/Auth/AuthForm.module.css'; // Assuming you use this CSS module for styling
+import styles from '/src/Components/Auth/AuthForm.module.css'; // Assuming you use this CSS module for styling
 
 const Login = ({ switchToSignUp }) => {
   const [email, setEmail] = useState('');
