@@ -43,7 +43,7 @@ const Footer = () => {
                         className='font-semibold tracking-widest text-2xl sm:text-3xl font-cursive'
                     >
                         {" "}
-                        Cafie cafe
+                        Arora Brew
                     </a>
                     <p className='pt-4'>
                         {" "}

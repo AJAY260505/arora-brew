@@ -33,7 +33,7 @@ const Navbar = () => {
                     className='font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive'
                 >
                     <img src={Logo} alt="Logo" className='w-14'/>
-                    Cafie Cafe
+                    Arora Brew
                 </a>
             </div>
            

@@ -23,7 +23,7 @@ const AppStore = () => {
                 className='space-y-6 max-w-xl mx-auto'>
                 {/* text Content*/}
                 <h1 className='text-2xl text-center sm:text-left sm:text-4xl font-semibold pl-3 text-white/90'>
-                    Cafie Cofe is available fro Android and IOS
+                    Arora Brew is available fro Android and IOS
                 </h1>
                 {/* Logo Section*/}
                 <div className='flex flex-wrap justify-center sm:justify-start items-center'>
