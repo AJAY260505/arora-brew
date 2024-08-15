@@ -6,7 +6,7 @@ import FooterBg from "../../assets/website/coffee-footer.jpg";
 const FooterLinks = [
     {
         title: "Home",
-        link: "/#",
+        link: "/#home",
     },
     {
         title: "About",

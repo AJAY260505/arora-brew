@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import Login from './Login';
 import SignUp from 'src/Components/Auth/Signup.jsx';
 import styles from './AuthForm.module.css'; // Adjust this path if needed
+import { auth } from '../firebase/firebase';
 
 const AuthForm = ({ onClose }) => {
   const [isLogin, setIsLogin] = useState(true); // Start with Login form
+  const [email,setEmail]=useState("");
 
   return (
     <div className={styles.authForm}>
