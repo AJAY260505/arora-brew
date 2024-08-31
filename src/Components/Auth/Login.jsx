@@ -37,7 +37,9 @@ const Login = () => {
         // Handle close action, e.g., hide the login form or redirect
         window.location.href = "/"; // Redirect to home or another page
     };
-
+const active=()=>{
+    window.location.href = "/";
+}
     return (
         <div className="login-container">
             <button className="close-button" onClick={handleClose}>×</button>
@@ -59,7 +61,8 @@ const Login = () => {
                         placeholder="Password"
                         required
                     />
-                    <button type="submit" disabled={loading}>
+                    <button type="submit" disabled={loading} onClick={active}>
+
                         {loading ? 'Processing...' : (isSignUp ? 'Sign Up' : 'Login')}
                     </button>
                     {error && <p className="error-message">{error}</p>}
