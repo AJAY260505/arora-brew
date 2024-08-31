@@ -33,9 +33,11 @@ const Login = () => {
         }
     };
 
-    const handleClose = () => {
+    const handleClose = (e) => {
         // Handle close action, e.g., hide the login form or redirect
         window.location.href = "/"; // Redirect to home or another page
+        e.preventDefault;
+        prev => !prev
     };
 const active=()=>{
     window.location.href = "/";
